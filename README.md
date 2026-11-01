@@ -130,14 +130,26 @@ After management authorization, the folder permissions were updated to permit re
 
 ## 6. Screenshots and Evidence
 
-Screenshots will document:
 
-1. SMB authentication and user session verification.
-2. Initial access denial.
-3. NTFS permission configuration.
-4. PowerShell ACL verification.
-5. Successful read access.
-6. Denied write operation.
+## 6. Screenshots and Evidence
+
+### 01 — SMB Share Permissions
+![SMB Share Permissions](TechNova_Ticket_1042/01-smb-share-permissions.png)
+
+### 02 — NTFS Security Settings
+![NTFS Security Settings](TechNova_Ticket_1042/02-ntfs-security-settings.png)
+
+### 03 — Pedro SMB Authentication
+![Pedro SMB Authentication](TechNova_Ticket_1042/03-pedro-smb-authentication.png)
+
+### 04 — Authenticated Session on Server
+![Pedro Session on Server](TechNova_Ticket_1042/04-pedro-session-on-server.png)
+
+### 05 — NTFS ACL Verification with PowerShell
+![NTFS ACL PowerShell](TechNova_Ticket_1042/05-ntfs-acl-powershell.png)
+
+### 06 — Write Access Denied
+![Write Access Denied](TechNova_Ticket_1042/06-write-access-denied.png)
 
 ## 7. Technical Skills Demonstrated
 
